@@ -18,8 +18,8 @@ public class Carro {
 
     private String motor;
     private String funilaria;
-    private String pintura;
-    private String carroceria;
+   
+    private String monoBloco;
     private String montagem;
     private String sistemaEletrico;
 
@@ -27,8 +27,7 @@ public class Carro {
     public Carro() {
         this.motor = motor;
         this.funilaria = funilaria;
-        this.pintura = pintura;
-        this.carroceria = carroceria;
+        this.monoBloco = monoBloco;
         this.montagem = montagem;
         this.sistemaEletrico = sistemaEletrico;
     }
@@ -73,20 +72,15 @@ public class Carro {
         this.funilaria = funilaria;
     }
 
-    public String getPintura() {
-        return pintura;
+   
+
+
+    public String getMonoBloco() {
+        return monoBloco;
     }
 
-    public void setPintura(String pintura) {
-        this.pintura = pintura;
-    }
-
-    public String getCarroceria() {
-        return carroceria;
-    }
-
-    public void setCarroceria(String carroceria) {
-        this.carroceria = carroceria;
+    public void setMonoBloco(String carroceria) {
+        this.monoBloco = carroceria;
     }
 
     public String getMontagem() {
