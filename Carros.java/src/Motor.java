@@ -1,7 +1,5 @@
 public class Motor {
 
-
-
     private String valvulas;
     private String velasDeIgnicao;
     private String pistao;
@@ -13,5 +11,10 @@ public class Motor {
     private String radiador;
     private String reservatorio;
 
-    
+    public void montarMotor() {
+
+        System.out.println("Sera iniciada a montagem do motor....");
+
+    }
+
 }

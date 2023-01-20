@@ -33,11 +33,7 @@ public class Carro {
         this.sistemaEletrico = sistemaEletrico;
     }
 
-    public void montarMotor() {
-
-        System.out.println("Sera iniciada a montagem do motor....");
-
-    }
+    
 
     public void fazerFunilaria() {
 
