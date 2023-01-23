@@ -1,24 +1,35 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, Cars!");
-
-        Carro c1 = new Carro("Volkswagen", "Fusca", 1985, false, null);
-        System.out.println(c1.setAno(1981));
-        System.out.print(c1.setFabricante("Volkswagen"));
-        System.out.println(c1.setFabricante("Volkswagen"));
-        System.out.println(c1.setModelo("Brasilia"));
-        System.out.println(c1.setLigado(true));
-      
-        
+       
+        Carro carro = new Carro("Volkswagen", "Fusca", 1985, false, null);
+        carro.setAno(0);
+        carro.setFabricante("Volkswagen");
+        carro.setModelo("Brasilia");
+        carro.setLigado(false);
+        carro.acelerar(true, false);
 
         Funilaria funilaria = new Funilaria(null, null, null, null, null, null, null, null, null);
-        funilaria.setPintura(null);
-        funilaria.setSolda(null);
+        funilaria.mstrarInfoarmacoesFunilaria();
+        funilaria.fazerPintura();
         funilaria.soldar();
-
+        
         Monobloco eixos = new Monobloco(null, null, null, null);
         eixos.adiconarEixos();
         eixos.montarCarrocerria();
+        eixos.getCarroceria();
+        eixos.getChassi();
+        eixos.getSuspensao();
+        
+        Motor motor = new Motor(null, null, null, null, null, null, null, null, null, null);
+        motor.instalarMotor();
+        motor.getAneisDePistao();
+        motor.getRadiador();
+        motor.getValvulas();
+        motor.getVelasDeIgnicao();
+
+        Acabamentos acabamentos = new Acabamentos(null);
+        acabamentos.localizarEcorrigirErros();
+      
 
     }
 }

@@ -24,15 +24,28 @@ public class Funilaria {
         this.repuxameiraEletrica = repuxameiraEletrica;
     }
 
+    public void mstrarInfoarmacoesFunilaria() {
+
+        System.out.println("Pintura: " + getPintura());
+        System.out.println("Pistola De Pintura: " + getPistolaDePintura());
+        System.out.println("Secador: " + getSecador());
+        System.out.println("Usar martelinho de ouro. " + getMartelinhoDeOuro());
+        System.out.println("Compresor de ar. " + getCompressorDeAr());
+        System.out.println("Equipamento de proteção " + getEquipamentoDeProtecao());
+        System.out.println("Solda " + getSolda());
+        System.out.println("Alinhador ciborg " + getAlinhadorCiborg());
+        System.out.println("Repuxamento elétrico. " + getRepuxameiraEletrica());
+    }
+
     public void iniciarFunilaria() {
 
-        System.out.println("Iniciando a funilaria do carro. ");
+        System.out.println(" Iniciando a funilaria do carro. Peças são soldadas dando forma à carroceria do veiculo. ");
 
     }
 
     public void fazerPintura() {
 
-        System.out.println("Como foi finalizado a funilaria, será iniciada a pintura. ");
+        System.out.println("Já com a carroçaria verificada e completamente montada, o automóvel segue para a pintura. ");
 
     }
 

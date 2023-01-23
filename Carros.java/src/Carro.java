@@ -34,9 +34,29 @@ public class Carro {
         System.out.println("Fabricante: " + getFabricante());
         System.out.println("Modelo: " + getModelo());
         System.out.println("Ano: " + getAno());
-        System.out.println("O carro esta ligado?. "+ isLigado());
-        System.out.println("Como foi  finalizada da pintura, será iniciada a instalação do motor. ");
+        System.out.println("O carro esta ligado?. " + isLigado());
 
+    }
+
+    public boolean ligarCarro() {
+
+        if (!carroLigado) {
+
+            System.out.println("O carro esta desligado. ");
+        }
+        System.out.println("Ligando o carro... " + isLigado());
+
+        return true;
+    }
+
+    public boolean acelerar(Boolean acelerar, boolean parado) {
+        if (!carroLigado) {
+            System.out.println("Impossível acelerar, o carro esta parado.");
+            return false;
+        }
+
+        System.out.println("Acelerando o carro");
+        return true;
     }
 
     public String getFabricante() {
@@ -45,7 +65,7 @@ public class Carro {
 
     public String setFabricante(String fabricante) {
         return this.fabricante = fabricante;
-        
+
     }
 
     public String getModelo() {
@@ -65,6 +85,7 @@ public class Carro {
     }
 
     public boolean isLigado() {
+
         return carroLigado;
     }
 

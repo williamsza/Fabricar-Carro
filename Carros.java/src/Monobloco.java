@@ -13,12 +13,12 @@ public class Monobloco {
     }
 
     public void adiconarEixos() {
-        System.out.println("Adicionando os eixos dianteiros e trazeiros; ");
+        System.out.println("Instalando os eixos dianteiros e trazeiros; "+getEixos());
 
     }
 
     public void montarCarrocerria() {
-        System.out.println("Realizabdo a instalação da carrocerria. ");
+        System.out.println("Na fase de montagem da carrocerria, procede-se à acoplagem das várias partes do veículo e a sua soldagem, trabalho essencialmente realizado por robots."+ getCarroceria());
 
     }
 

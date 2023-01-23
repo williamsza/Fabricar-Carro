@@ -1,8 +1,11 @@
+     ------------------------------------
+     ---------------------------------------
      ABS;
      CNH;
      DTRAN;
      GPS;
      IPVA;
+     Manutencao;
      abastecimento;
      acelerador;
      acidenteDeTransito;
@@ -11,20 +14,26 @@
      alargadorDeRodas;
      alarme;
      alcool;
+     alinhamneto;//MANUTENCAO//VERBOS
      aluguelDeCarro;
      amortecedorDaSuspensao;
      amortecedorDianteiro;
+     ano;
      antenas;
      apreencaoDoVeiculo;
      arCondicionado;
+     auxiliarDePartida;//MOTOR
      balanceamentoDasRodas;
+     barraDeDirecao;
      bateria;
      bitolaDianteira;
      bitolaTrazeira;
      blitz;
+     blocoDoMotor;
      bozina;
      brasilia;
      brozinaDeMancal;
+     cabecote;
      cadeiraDeBebe;
      caixaDeCambio;
      caliper;
@@ -43,6 +52,11 @@
      chaveDeFenda;
      chaveDeRoda;
      checkList;
+     cilindroDeBloco;
+     cilindroDeRodaTraseira;
+     cilindroMestreDeFreio;
+     cilindroMioloDeIgnicao;
+     cintoDeSeguranca;
      clonado;
      codigoDeTransitoBrasileiro;
      colisao;
@@ -52,9 +66,11 @@
      congestionamento;
      converível;
      cor;
+     correiaDentada;
      depreciacao;
      derrapagem
      desempenho;
+     dirigir;
      discoDeFreio;
      disel;
      documentação;
@@ -62,12 +78,15 @@
      emplacamento;
      engarrafamento;
      escapamento;
+     estacionar;
      extintor;
+     fabricante;
      faixaDePedestres;
      faoisDeNeblina;
      faroes;
      faroisTrazeiros;
      ferramentas;
+     filtroDeArDoMotor;
      financiamento;
      flauta;
      flet;
@@ -81,6 +100,7 @@
      fusca;
      gas;
      gasolina;
+     guinchoCarro;
      ignicao
      injessaoEletronica;
      inspessaoDosVidros;
@@ -92,22 +112,28 @@
      kitDePrimeirosSocorros;
      lanterna;
      lavaRapido;
+     lavagemDeCarro;
      licenciamento;
      limadorParabrisa;
      limiteDeVelocidade;
      limozine;
+     linhaDeMontagem;
      macaco;
      macanetas;
      mangueiraDeFreios;
+     manobra;
      manutencaoPreventiva;
      marchas;
      medidorDeCombustivel;
+     modelo;
      molasEsportivas;
+     motor;
      motor;
      motorista;
      multas;
      numeracaoDeChassi;
      oficina;
+     oleo;
      painel;
      palhetas;
      paraBrisa;
@@ -122,6 +148,7 @@
      pilotoAutomatico;
      pinhao;
      pintura;
+     pistao;
      placa;
      portaLuvas;
      portaMalas;
@@ -130,8 +157,10 @@
      quatroPnels;
      quatroPostas;
      quatroRodas;
+     radiador;
      regularizacao;
      repetidorDeSeta;
+     reservatorioDeAgua;
      retrorrefletores;
      retrovisores;
      revestimentoDeCouro;
@@ -145,6 +174,7 @@
      sensorLambda;
      servofreio;
      sistemaEletrico;
+     soldadgem;
      steeps;
      suporteDeBicicleta;
      surdina;
@@ -168,6 +198,7 @@
      utilitario;
      valvulaTermostatica;
      veiculo;
+     velasDeignicao;
      velocimetro;
      venda;
      ventoinha;
@@ -176,34 +207,6 @@
      vidros;
      vistoria;
      volante;
-     soldadgem;
-     linhaDeMontagem;
-     ------------------------------------
-     alinhamneto;//MANUTENCAO//VERBOS
-     Manutencao;
-     manobra;
-     guinchoCarro;
-     estacionar;
-     dirigir;
-     ---------------------------------------
-     auxiliarDePartida;//MOTOR
-     barraDeDirecao;
-     correiaDentada;
-     blocoDoMotor;
-     cabecote;
-     cilindroDeBloco;
-     cilindroDeRodaTraseira;
-     cilindroMestreDeFreio;
-     cilindroMioloDeIgnicao;
-     cintoDeSeguranca;
-     filtroDeArDoMotor;
-     lavagemDeCarro;
-     motor;
-     oleo;
-     pistao;
-     radiador;
-     reservatorioDeAgua;
-     velasDeignicao;
      ---------------------------------------------
 
      assistirFilme; //  FAZ = VERBOS

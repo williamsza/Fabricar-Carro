@@ -27,7 +27,7 @@ public class Motor {
 
     public void instalarMotor() {
 
-        System.out.println("iniciando a montagem do motor....");
+        System.out.println("O motor, sistema de transmissão e sistemas de escape são posicionados e acoplados finalmente à carroçaria. ");
 
     }
 
