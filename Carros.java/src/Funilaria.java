@@ -8,5 +8,118 @@ public class Funilaria {
     private String solda;
     private String alinhadorCiborg;
     private String repuxameiraEletrica;
+    private String sistemaEletrico;
+
+    public Funilaria(String pintura, String pistolaDePintura, String secador, String martelinhoDeOuro,
+            String compressorDeAr, String equipamentoDeProtecao, String solda, String alinhadorCiborg,
+            String repuxameiraEletrica) {
+        this.pintura = pintura;
+        this.pistolaDePintura = pistolaDePintura;
+        this.secador = secador;
+        this.martelinhoDeOuro = martelinhoDeOuro;
+        this.compressorDeAr = compressorDeAr;
+        this.equipamentoDeProtecao = equipamentoDeProtecao;
+        this.solda = solda;
+        this.alinhadorCiborg = alinhadorCiborg;
+        this.repuxameiraEletrica = repuxameiraEletrica;
+    }
+
+    public void iniciarFunilaria() {
+
+        System.out.println("Iniciando a funilaria do carro. ");
+
+    }
+
+    public void fazerPintura() {
+
+        System.out.println("Como foi finalizado a funilaria, será iniciada a pintura. ");
+
+    }
+
+    public void soldar() {
+
+        System.out.println("Realizando solda. ");
+
+    }
+
+    public String getPintura() {
+        return pintura;
+    }
+
+    public void setPintura(String pintura) {
+        this.pintura = pintura;
+    }
+
+    public String getPistolaDePintura() {
+        return pistolaDePintura;
+    }
+
+    public void setPistolaDePintura(String pistolaDePintura) {
+        this.pistolaDePintura = pistolaDePintura;
+    }
+
+    public String getSecador() {
+        return secador;
+    }
+
+    public void setSecador(String secador) {
+        this.secador = secador;
+    }
+
+    public String getMartelinhoDeOuro() {
+        return martelinhoDeOuro;
+    }
+
+    public void setMartelinhoDeOuro(String martelinhoDeOuro) {
+        this.martelinhoDeOuro = martelinhoDeOuro;
+    }
+
+    public String getCompressorDeAr() {
+        return compressorDeAr;
+    }
+
+    public void setCompressorDeAr(String compressorDeAr) {
+        this.compressorDeAr = compressorDeAr;
+    }
+
+    public String getEquipamentoDeProtecao() {
+        return equipamentoDeProtecao;
+    }
+
+    public void setEquipamentoDeProtecao(String equipamentoDeProtecao) {
+        this.equipamentoDeProtecao = equipamentoDeProtecao;
+    }
+
+    public String getSolda() {
+        return solda;
+    }
+
+    public void setSolda(String solda) {
+        this.solda = solda;
+    }
+
+    public String getAlinhadorCiborg() {
+        return alinhadorCiborg;
+    }
+
+    public void setAlinhadorCiborg(String alinhadorCiborg) {
+        this.alinhadorCiborg = alinhadorCiborg;
+    }
+
+    public String getRepuxameiraEletrica() {
+        return repuxameiraEletrica;
+    }
+
+    public void setRepuxameiraEletrica(String repuxameiraEletrica) {
+        this.repuxameiraEletrica = repuxameiraEletrica;
+    }
+
+    public String getSistemaEletrico() {
+        return sistemaEletrico;
+    }
+
+    public void setSistemaEletrico(String sistemaEletrico) {
+        this.sistemaEletrico = sistemaEletrico;
+    }
 
 }

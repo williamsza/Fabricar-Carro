@@ -16,87 +16,60 @@
 
 public class Carro {
 
-    private String motor;
-    private String funilaria;
-   
-    private String monoBloco;
-    private String montagem;
-    private String sistemaEletrico;
+    private String fabricante;
+    private String modelo;
+    private int ano;
+    private boolean carroLigado;
 
-    // Contrutor
-    public Carro() {
-        this.motor = motor;
-        this.funilaria = funilaria;
-        this.monoBloco = monoBloco;
-        this.montagem = montagem;
-        this.sistemaEletrico = sistemaEletrico;
-    }
-
-    
-
-    public void fazerFunilaria() {
-
-        System.out.println("Após a finalização do motor será iniciaado a funilaria....");
+    public Carro(String fabricante, String modelo, int ano, boolean carroLigado, String sistemaEletrico) {
+        this.fabricante = fabricante;
+        this.modelo = modelo;
+        this.ano = ano;
+        this.carroLigado = carroLigado;
 
     }
 
-    public void fazerPintura() {
+    public void mstrarInfoarmacoes() {
 
-        System.out.println("Após a finalização da funilaria, será iniciada a pintura. ");
-
-    }
-
-    public void montarCarrocerria() {
-
-    }
-
-    public void realizarMontagem() {
-
-        System.out.println("Após a finalização da pintura, será iniciada a montagem. ");
+        System.out.println("Fabricante: " + getFabricante());
+        System.out.println("Modelo: " + getModelo());
+        System.out.println("Ano: " + getAno());
+        System.out.println("O carro esta ligado?. "+ isLigado());
+        System.out.println("Como foi  finalizada da pintura, será iniciada a instalação do motor. ");
 
     }
 
-    public String getMotor() {
-        return motor;
+    public String getFabricante() {
+        return fabricante;
     }
 
-    public void setMotor(String motor) {
-        this.motor = motor;
+    public String setFabricante(String fabricante) {
+        return this.fabricante = fabricante;
+        
     }
 
-    public String getFunilaria() {
-        return funilaria;
+    public String getModelo() {
+        return modelo;
     }
 
-    public void setFunilaria(String funilaria) {
-        this.funilaria = funilaria;
+    public String setModelo(String modelo) {
+        return this.modelo = modelo;
     }
 
-   
-
-
-    public String getMonoBloco() {
-        return monoBloco;
+    public int getAno() {
+        return ano;
     }
 
-    public void setMonoBloco(String carroceria) {
-        this.monoBloco = carroceria;
+    public int setAno(int ano) {
+        return this.ano = ano;
     }
 
-    public String getMontagem() {
-        return montagem;
+    public boolean isLigado() {
+        return carroLigado;
     }
 
-    public void setMontagem(String montagem) {
-        this.montagem = montagem;
-    }
-
-    public String getSistemaEletrico() {
-        return sistemaEletrico;
-    }
-
-    public void setSistemaEletrico(String sistemaEletrico) {
-        this.sistemaEletrico = sistemaEletrico;
+    public boolean setLigado(boolean motorLigado) {
+        return this.carroLigado = motorLigado;
     }
 
 }
