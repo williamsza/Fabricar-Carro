@@ -11,6 +11,10 @@ public class Motor {
     private String radiador;
     private String reservatorio;
 
+    
+    public Motor() {
+    }
+
     public Motor(String valvulas, String velasDeIgnicao, String pistao, String aneisDePistao, String biela,
             String virabrequim, String blocoDoMotor, String filtroDeOleo, String radiador, String reservatorio) {
         this.valvulas = valvulas;

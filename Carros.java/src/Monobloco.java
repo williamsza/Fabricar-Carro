@@ -5,6 +5,10 @@ public class Monobloco {
     private String eixos;
     private String suspensao;
 
+    
+    public Monobloco() {
+    }
+
     public Monobloco(String chassi, String carroceria, String eixos, String suspensao) {
         this.chassi = chassi;
         this.carroceria = carroceria;

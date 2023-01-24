@@ -20,8 +20,12 @@ public class Carro {
     private String modelo;
     private int ano;
     private boolean carroLigado;
+    private boolean acelerar;
 
-    public Carro(String fabricante, String modelo, int ano, boolean carroLigado, String sistemaEletrico) {
+    public Carro() {
+    }
+
+    public Carro(String fabricante, String modelo, int ano, boolean carroLigado) {
         this.fabricante = fabricante;
         this.modelo = modelo;
         this.ano = ano;
@@ -31,32 +35,34 @@ public class Carro {
 
     public void mstrarInfoarmacoes() {
 
+        System.out.println("O carro está ligado? " + isLigado());
         System.out.println("Fabricante: " + getFabricante());
-        System.out.println("Modelo: " + getModelo());
-        System.out.println("Ano: " + getAno());
-        System.out.println("O carro esta ligado?. " + isLigado());
+        System.out.println("Ano do Automóvel: " + getAno());
+        System.out.println("Modelo do automóvel: " + getModelo());
 
     }
 
     public boolean ligarCarro() {
 
-        if (!carroLigado) {
+        if (carroLigado) {
 
-            System.out.println("O carro esta desligado. ");
+            System.out.println("Ligando o carro... " + isLigado());
         }
-        System.out.println("Ligando o carro... " + isLigado());
+        System.out.println("O carro esta desligado. " + !isLigado());
 
         return true;
     }
 
-    public boolean acelerar(Boolean acelerar, boolean parado) {
+    public boolean acelerar(boolean b, boolean c) {
+
         if (!carroLigado) {
+
             System.out.println("Impossível acelerar, o carro esta parado.");
-            return false;
         }
 
         System.out.println("Acelerando o carro");
-        return true;
+        return carroLigado;
+
     }
 
     public String getFabricante() {

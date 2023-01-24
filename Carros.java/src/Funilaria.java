@@ -10,6 +10,9 @@ public class Funilaria {
     private String repuxameiraEletrica;
     private String sistemaEletrico;
 
+    public Funilaria() {
+    }
+
     public Funilaria(String pintura, String pistolaDePintura, String secador, String martelinhoDeOuro,
             String compressorDeAr, String equipamentoDeProtecao, String solda, String alinhadorCiborg,
             String repuxameiraEletrica) {
@@ -24,38 +27,47 @@ public class Funilaria {
         this.repuxameiraEletrica = repuxameiraEletrica;
     }
 
-    public void mstrarInfoarmacoesFunilaria() {
+     public void mstrarInfoarmacoesFunilaria() {
 
-        System.out.println("Pintura: " + getPintura());
-        System.out.println("Pistola De Pintura: " + getPistolaDePintura());
-        System.out.println("Secador: " + getSecador());
-        System.out.println("Usar martelinho de ouro. " + getMartelinhoDeOuro());
-        System.out.println("Compresor de ar. " + getCompressorDeAr());
-        System.out.println("Equipamento de proteção " + getEquipamentoDeProtecao());
-        System.out.println("Solda " + getSolda());
-        System.out.println("Alinhador ciborg " + getAlinhadorCiborg());
-        System.out.println("Repuxamento elétrico. " + getRepuxameiraEletrica());
-    }
+    
+      System.out.println("Pistola De Pintura: " + getPistolaDePintura());
+      System.out.println("Secador: " + getSecador());
+      System.out.println("Usar martelinho de ouro. " + getMartelinhoDeOuro());
+      System.out.println("Compresor de ar. " + getCompressorDeAr());
+      System.out.println("Equipamento de proteção " + getEquipamentoDeProtecao());
+      System.out.println("Solda " + getSolda());
+      System.out.println("Alinhador ciborg " + getAlinhadorCiborg());
+      System.out.println("Repuxamento elétrico. " + getRepuxameiraEletrica());
+     
+     }
 
     public void iniciarFunilaria() {
 
-        System.out.println(" Iniciando a funilaria do carro. Peças são soldadas dando forma à carroceria do veiculo. ");
-
-    }
-
-    public void fazerPintura() {
-
-        System.out.println("Já com a carroçaria verificada e completamente montada, o automóvel segue para a pintura. ");
+        System.out.println("Peças são soldadas dando forma à carroceria do veiculo. ");
 
     }
 
     public void soldar() {
 
-        System.out.println("Realizando solda. ");
+        System.out.println(
+                "As partes da carroceria se encontram e começam a soldagem, cerca de 70% das soldagens são feitas por braços robóticos nos mais de cinco mil pontos de solda. ");
 
     }
 
-    public String getPintura() {
+    public void fazerPintura() {
+
+        System.out
+                .println("Já com a carroçaria verificada e completamente montada, o automóvel segue para a pintura. ");
+
+        System.out.println(
+                "Antes da pintura a carroceria passa por um pré-tratamento retirando impurezas do processo de soldagem, e depois o carro e mergulhado em um líquido nivelante e anticorrosivo.");
+
+        System.out.println(
+                "Depois o automóvel passa pelo processo de calafetação, que impermeabiliza o carro e logo em seguida ocorre a aplicação do prime, que deixa o veículo com a cor parecida com a definitiva.");
+
+    }
+
+    public String getPintura(String pintura) {
         return pintura;
     }
 
@@ -133,6 +145,10 @@ public class Funilaria {
 
     public void setSistemaEletrico(String sistemaEletrico) {
         this.sistemaEletrico = sistemaEletrico;
+    }
+
+    public String getPintura() {
+        return pintura;
     }
 
 }

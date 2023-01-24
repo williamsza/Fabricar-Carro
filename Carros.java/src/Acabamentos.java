@@ -2,15 +2,18 @@ public class Acabamentos {
 
     private String verificarECorrigirErros;
 
+    public Acabamentos() {
+    }
+
     public Acabamentos(String verificarImperfeicoes) {
         this.verificarECorrigirErros = verificarECorrigirErros;
 
     }
 
-    public void localizarEcorrigirErros() {
+    public void localizarECorrigirErros() {
 
         System.out.println(
-                " Após a montagem e verificação da carroceria, o veiculo passa por uma fase de acabamentos, com o objetivo de localizar e corrigir pequenas imperfeições."
+                "Após a montagem e verificação da carroceria, o veiculo passa por uma fase de acabamentos, com o objetivo de localizar e corrigir pequenas imperfeições."
                         + isVerificarECorrigirErros());
     }
 
